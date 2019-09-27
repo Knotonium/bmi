@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Ein kleiner BMI-Calculator in js">
+    <meta name="keywords" content="BMI-Rechner">
+    <meta name="author" content="Nicole Forouhar">
+    <meta name="author" content="Knotonium">
+    <title>BMI Rechner</title>
+</head>
+<!-- type=module um es6 module zu nutzen -->
+
+<body>
+    <label for="gewicht">Gewicht: </label>
+    <input type="number" name="gewicht" id="gewicht" value="0">
+    <br>
+    <label for="groesse">Größe: </label>
+    <input type="number" name="groesse" id="groesse" value="0">
+    <br>
+    <label for="bmi">BMI:</label>
+    <input type="number" name="bmi" id="bmi" value="0" disabled>
+    <script src="scripts.js" type="module" defer></script>
+    <br>
+    <br>
+    <br>
+    <label for="bmi_beschreibung">BMI Beschreibung:</label>
+    <input type="text" name="bmi_beschreibung" id="bmi_beschreibung" value="">
+</body>
+
+</html>
